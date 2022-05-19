@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin:  50px auto;
+    width: 500px;
+    height: 220px;
+    background-color: white;
+    border: 2px solid grey;
+}
+.header {
+    height: 25%;
+    background-color: #68c3d5;
+}
+.header img {
+    height: 65px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.main {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+.main img {
+    height: 15px;
+    margin-right: 10px;
+    float: left;
+}
+.name {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.location {
+    font-size: 14px;
+
+}
+.description {
+    font-size: 12px;
+    margin: 10px 0;
+}
+.edit {
+    font-size: 12px;
+    margin: 10px 0;
+}
+.edit a {
+    color: #277b9d;;
+}

@@ -1,0 +1,23 @@
+.left, .middle, .right {
+    display: inline-block;
+    width: 33%;
+    height: 100%;
+}
+body {
+    background-color: black;
+}
+.container {
+    width: 900px;
+    height: 600px;
+    background-color: white;
+    margin: 20px auto;
+}
+.left {
+    background-color: forestgreen;
+}
+.middle {
+    background-color: white;
+}
+.right {
+    background-color: crimson;
+}

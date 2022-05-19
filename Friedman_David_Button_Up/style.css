@@ -1,0 +1,37 @@
+#button_1, #button_2, #button_3 {
+    display: block;
+    margin-bottom: 10px;
+}
+div {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#button_1 {
+    width: 150px;
+    height: 30px;
+    font-weight: 800;
+    color:mediumturquoise;
+    background-color:rgb(9 71 64 / 0.05);
+    border: 2px solid mediumturquoise;
+    border-radius: 20px;
+}
+#button_2 {
+    width: 40px;
+    height: 40px;
+    font-size: 150%;
+    color: white;
+    background-color:mediumturquoise;
+    border: 0;
+    border-radius: 50%;
+}   
+#button_3 {
+    width: 200px;
+    height: 40px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 1em;
+    color: white;
+    background-color: blue;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+}

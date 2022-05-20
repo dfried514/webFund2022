@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.nav {
+    font-size: 90%;
+    padding: 0 400px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-profile {
+    font-size: 2rem;
+}
+.active {
+    font-weight: bolder;
+}
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: center;
+}
+.signOut {
+    color: white;
+    background-color: #37bbdd;
+    padding: 5px 10px;
+}
+.main-content {
+    margin: 20px 400px 0 auto;
+    width: 640px;
+    display: flex;
+    justify-content: space-between;
+}
+.profile-list {
+    flex: 2;
+}
+.connections-list {
+    flex: 1;
+}
+.profile, .connection-requests, .education, .connections {
+    background-color: white;
+}
+.profile {
+    height: 240px;
+    border: 3px solid #e1dfdf;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.profile-header {
+    height: 25%;
+    background-color: #65a7b5;
+}
+.profile-header img {
+    height: 65px;
+    width: 65px;
+    position: relative;
+    top: 25px;
+    left: 20px;
+    border-radius: 60%;
+}
+.profile-main {
+    margin-top: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+.profile-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.profile-items-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+}
+.profile-icon {
+    height: 15px;
+}
+.profile-name {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.profile-location {
+    font-size: 14px;
+}
+.profile-description {
+    font-size: 12px;
+    margin: 10px 0;
+}
+.profile-edit {
+    font-size: 12px;
+    margin: 10px 0;
+}
+.connection-requests {
+    height: 140px;
+    background-color: white;
+    border: 3px solid #e1dfdf;
+    margin-bottom: 20px;
+}
+.connection-header {
+    background-color: #312e2e;
+    padding: 10px;
+}
+
+.connection-heading-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+}
+.connection-count {
+    background-color: #dbd4d4;
+    color: black;
+    padding: 5px;
+    height: 15px;
+    border-radius: 50%;
+}
+.heading-title {
+    color: white;
+}
+.connection-main {
+    padding: 10px 10px 0;
+}
+.connection-list, .education-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.connection-list2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+.connection-list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+}
+.connection-list-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.connection-list-choice {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 5px;
+}
+.connection-image {
+    height: 25px;
+    border-radius: 50%;
+}
+.connection-icon {
+    height: 20px;
+    border-radius: 50%;
+}
+
+.education {
+    height: 140px;
+    background-color: white;
+    border: 3px solid #e1dfdf;
+    margin-right: 20px;
+}
+.education-header {
+    background-color: #312e2e;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.education-main {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.education-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.education-school {
+    font-size: 16px;
+}
+.education-date {
+    font-size: 12px;
+    font-weight: 300;
+}
+.education-achievement {
+    font-size: 12px;
+}
+.connections {
+    height: 235px;
+    background-color: white;
+    border: 3px solid #e1dfdf;
+}
+.connection-foot {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 12px;
+    border-top: 3px solid #e1dfdf;
+}
+li {
+    display: inline-block;
+}
+a {
+    color: #277b9d;;
+}

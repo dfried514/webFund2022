@@ -1,0 +1,69 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+  /* Fixed width container class that will "auto-center" itself */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .btn {
+    width: 150px;
+    height: 30px;
+    font-weight: 800;
+    color:mediumturquoise;
+    background-color:rgb(9 71 64 / 0.05);
+    border: 2px solid mediumturquoise;
+    border-radius: 20px;
+  }
+  .btn {
+    background-color: rgb(66 187 214);
+    color: rgb(222, 213, 213);
+    padding: 5px;
+    box-shadow: 3px 3px black;
+}
+.row {
+    display: flex;
+}
+.col, .col-2, .col-3 {
+    padding: 20px;
+    margin: 10px;
+    background-color: darkturquoise;
+}
+.col {
+    flex: 1;
+}
+.col-2 {
+    flex: 2;
+}
+.col-3 {
+    flex: 3;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    width: 800px;
+    background-color: rgb(52, 48, 48);
+    padding: 10px 20px;
+}
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 25px;
+}
+li {
+    display: inline-block;
+}
+a:link {
+    text-decoration: none;
+}
+a:visitied {
+    text-decoration: none;
+}

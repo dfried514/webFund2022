@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 600px;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box_1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+    color: black;
+    font-size: 32px;
+    padding: 20px;
+}
+.box_2 {
+    flex: 2;
+    text-align: center;
+    background-color: blueviolet;
+    color: black;
+    font-size: 32px;
+    padding: 20px;
+}
+.box_3 {
+    flex: 1;
+    background-color: aqua;
+    color: black;
+    font-size: 32px;
+    padding: 20px;
+    height: 200px;
+    overflow:auto;
+}

@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    margin-top: 20px;
+    padding: 10px 0;
+    font-size: 32px;
+    width: 300px;
+    background-color: pink;
+    border: 3px solid green;
+    border-radius: 20px;
+}

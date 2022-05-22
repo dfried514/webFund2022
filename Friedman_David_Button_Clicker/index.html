@@ -11,7 +11,7 @@
     <div class="navbar">
         <span class="nav-title">Dojonary</span>
         <input class="search" type="search" name="search" placeholder="Search">
-        <button class="login">Login</button>
+        <button class="login" onclick="logout(this)">Login</button>
     </div>
     <div class="container">
         <ul class="definition-list">
@@ -25,7 +25,7 @@
                         </ul>
                     </li>
                     <li>
-                        <button class="definition-likes">13 likes</button>
+                        <button class="definition-likes" onclick="liked()">13 likes</button>
                     </li>
                 </ul>
                 <div class="definition-description">
@@ -45,7 +45,7 @@
                         </ul>
                     </li>
                     <li>
-                        <button class="definition-likes">37 likes</button>
+                        <button class="definition-likes" onclick="liked()">37 likes</button>
                     </li>
                 </ul>
                 <div class="definition-description">
@@ -58,7 +58,7 @@
         </ul>
         <div class="definition-adder">
             <p class="definition-adder-description">Dojonary is defined by <span class="definition-adder-em">YOU</span></p>
-            <button class="definition-adder-button">Add Definition</button>
+            <button class="definition-adder-button" onclick="remove(this)">Add Definition</button>
         </div>
     </div>
     <script src="script.js"></script>

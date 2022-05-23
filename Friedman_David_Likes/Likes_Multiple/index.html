@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes Multiple</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <span class="nav-title">Network</span>
+    <span class="container-title">Your Feed</span>
+    <div class="container">
+        <div class="avatar-adder">
+            <img class="user-img" src="images/user-circle.png" alt="User">
+            <span class="avatar-description underlined-text">Add an avatar</span>
+            <span class="user-name">James Doe</span>
+        </div>
+        <div class="message-list">
+            <div class="message-item">
+                <div class="like-header">
+                    <div class="name-likes">
+                        <span class="member-name">Neil M</span>
+                        <span class="member-likes"><span class=like-count>9</span> like(s)</span>
+                    </div>
+                    <button class="like-button" onclick="incrementLikes(this)">Like</button>
+                </div>
+                <p class="message-content">
+                    I just set up this new discord bot, 
+                    let me know what you all think. <span class="underlined-text">link</span>
+                </p>
+            </div>
+            <div class="message-item">
+                <div class="like-header">
+                    <div class="name-likes">
+                        <span class="member-name">Nichole K</span>
+                        <span class="member-likes"><span class=like-count>12</span> like(s)</span>
+                    </div>
+                    <button class="like-button" onclick="incrementLikes(this)">Like</button>
+                </div>
+                <p class="message-content">
+                    Just finished my <span class="underlined-text">next comic</span>, check it out.
+                </p>
+            </div>
+            <div class="message-item">
+                <div class="like-header">
+                    <div class="name-likes">
+                        <span class="member-name">Jim R</span>
+                        <span class="member-likes"><span class=like-count>9</span> like(s)</span>
+                    </div>
+                    <button class="like-button" onclick="incrementLikes(this)">Like</button>
+                </div>
+                <p class="message-content">
+                    I can't stop listening to the <span class="underlined-text">new album</span>.
+                    Who else is liking it?
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

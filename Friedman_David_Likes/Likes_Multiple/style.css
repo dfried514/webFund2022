@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-title {
+    display: inline-block;
+    height: 50px;
+    width: 600px;
+    font-size: x-large;
+    padding: 10px 15px;
+    margin: 0 400px auto;
+    background-color: black;
+    color: white;
+}
+.container-title {
+    display: block;
+    font-size: x-large;
+    font-weight: 700;
+    margin: 10px 0;
+    text-align: center;
+}
+.container {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 400px auto;
+    gap: 20px;
+}
+.avatar-adder {
+    height: fit-content;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border: 3px solid black;
+}
+.user-img {
+    height: 60px;
+}
+.avatar-description {
+    font-size: 0.9em;
+}
+.user-name {
+    font-size: 1.2em;
+}
+.message-list {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.message-item {
+    padding: 20px;
+    border: 3px solid black;
+}
+.like-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.name-likes {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.member-name {
+    font-size: 1.2em;
+}
+.member-likes, .like-count {
+    font-size: 1em;
+}
+.like-button {
+    font-size: 1em;
+    padding: 5px 10px;
+    background-color: #fbd965;
+    color: black;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+}
+.message-content {
+    margin-top: 20px;
+    font-size: 1em;
+    line-height: 1.3;
+}
+.underlined-text {
+    text-decoration: underline;
+    color: #155696;
+}

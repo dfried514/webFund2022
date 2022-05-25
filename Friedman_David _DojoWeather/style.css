@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar, .cookie > button {
+    background-color: #9fc5f8;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    padding: 20px 0;
+    color: white;
+}
+.navbar > h1 {
+    margin-left: 200px;
+}
+.navbar > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    margin-right: 220px;
+}
+.navbar li {
+    display: inline-block;
+}
+.container {
+    margin: 0 200px auto;
+    height: fit-content;
+}
+.title-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+.title-header span {
+    padding-right: 5px;
+}
+.title-header select {
+    padding: 5px 0;
+}
+.day, .cookie {
+    background-color: #eeeeee;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+.day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23%;
+    padding: 20px 0;
+    gap: 20px;
+}
+.day > img {
+    height: 100px;
+    border-radius: 50%;
+}
+.temps {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    font-weight: 800;
+}
+.high-temp {
+    color: #cf372c;
+}
+.low-temp {
+    color: #2b78e4;
+}
+.cookie {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px 10px 20px;
+    border: 2px solid black;
+    position: fixed;
+    bottom: auto;
+    margin: 0 200px auto;
+}
+.cookie > img {
+    height: 50px;
+}
+.cookie > div {
+    width: 80%;
+    font-size: 110%;
+    line-height: 1.2;
+}
+.cookie span {
+    color: #135394;
+}
+.cookie > button {
+    padding: 5px 10px;
+    font-weight: 600;
+    box-shadow: 2px 2px black;
+}

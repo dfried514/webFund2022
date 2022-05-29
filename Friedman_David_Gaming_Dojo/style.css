@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background-color: #eeeeee;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    padding: 30px 200px;
+    background-color: black;
+    border-top: 5px solid #9e54fd;
+}
+.navbar h1 {
+    color: white;
+}
+.navbar h1 span {
+    color: #9e54fd;
+}
+.navbar > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.navbar li, .navbar li.div {
+    display: inline;
+}
+.navbar img {
+    height: 30px;
+}
+.cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+.cart-count {
+    color: white;
+    text-decoration: underline;
+}
+.container {
+    margin: 0 200px auto;
+}
+.container > h3 {
+    padding: 10px 0;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.main > img {
+    width: 90%;
+}
+.main > h1 {
+    font-weight: 300;
+}
+.horizontal-dash {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 350px;
+}
+.horizontal-dash > li {
+    display: inline-block;
+    height: 0;
+    width: 15%;
+    border-top: 8px solid #838283;
+}
+.horizontal-dash > li:nth-child(2) {
+    border-top: 8px solid #9e54fd;
+}
+.items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+.item {
+    flex: 1;
+    padding-bottom: 10px;
+    background-color: white;
+}
+.item li {
+    display: inline;
+}
+.item > img {
+    display: inline-block;
+    width: 100%;
+}
+.item > h3 {
+    padding-left: 10px;
+    font-weight: 300;
+}
+.item > ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left: 10px;
+}
+.item li img {
+    height: 30px;
+}
+.price-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 20px;
+    padding: 0 10px;
+}
+.price-info h5 {
+    color: #707070;
+    text-decoration: line-through;
+}
+.price-info h4 {
+    font-weight: 400;
+}
+.discount, .buy {
+    padding: 10px 5px;
+    font-weight: 300;
+    color: white;
+}
+.discount {
+    padding: 5px;
+    background-color: #9e54fd;
+}
+.buy {
+    padding: 5px;
+    background-color: #6aa84f;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Dojo</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Gaming<span>Dojo</span></h1>
+        <ul>
+            <li>
+                <select>
+                    <option>Euro €</option>
+                </select>
+            </li>
+            <li>
+                <div class="cart">
+                    <img src="images/cart-light.png" alt="cart">
+                    <span class="cart-count">2</span>
+                </div>
+            </li>
+            <li>
+                <img src="images/search-light.png" alt="search">
+            </li>
+        </ul>
+    </div>
+    <div class="container">
+        <h3>Highlights</h3>
+        <div class="main">
+            <h1 onclick="backwardImg()">&lt;</h1>
+            <img class="banner-img" src="images/stonepunk.png" alt="Stonepunk">
+            <h1 onclick="forwardImg()">&gt;</h1>
+        </div>
+        <ul class="horizontal-dash">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <div class="items">
+            <div class="item">
+                <img src="images/cafe-neko.png" alt="Cafe Neko: Gold Edition">
+                <h3>Cafe Neko: Gold Edition</h3>
+                <ul>
+                    <li><img src="images/windows.png" alt="Windows"></li>
+                    <li><img src="images/apple.png" alt="Apple"></li>
+                </ul>
+                <div class="price-info">
+                    <h3 class="discount">-20%</h3>
+                    <div>
+                        <h5>€14.98</h5>
+                        <h4>€10.49</h4>
+                    </div>
+                    <h3 class="buy" onclick="incrementCartCount()">Buy</h3>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/pixel-ninjas-2.png" alt="Pixel Ninjas 2">
+                <h3>Pixel Ninjas 2</h3>
+                <ul>
+                    <li><img src="images/windows.png" alt="Windows"></li>
+                    <li><img src="images/apple.png" alt="Apple"></li>
+                </ul>
+                <div class="price-info">
+                    <h3 class="discount">-10%</h3>
+                    <div>
+                        <h5>€8.19</h5>
+                        <h4>€7.39</h4>
+                    </div>
+                    <h3 class="buy" onclick="incrementCartCount()">Buy</h3>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/stonepunk.png" alt="Stone Punk 10000 BCE">
+                <h3>Stone Punk 10000 BCE</h3>
+                <ul>
+                    <li><img src="images/windows.png" alt="Windows"></li>
+                    <li><img src="images/apple.png" alt="Apple"></li>
+                    <li><img src="images/linux.png" alt="Linux" onclick="linuxAlert()"></li>
+                </ul>
+                <div class="price-info">
+                    <h3 class="discount">NEW</h3>
+                    <div>
+                        <h4>€19.99</h4>
+                    </div>
+                    <h3 class="buy" onclick="incrementCartCount()">Buy</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
